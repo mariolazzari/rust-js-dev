@@ -8,5 +8,6 @@ fn main() {
         name: String::from("Jennifer"),
         miles_hiked: 49,
     };
+
     println!("{} has hiked {} miles", jennifer.name, jennifer.miles_hiked);
 }

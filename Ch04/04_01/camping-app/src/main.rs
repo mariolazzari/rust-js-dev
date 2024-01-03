@@ -6,6 +6,7 @@ fn sentence_builder(person_info: (&str, u64, &str)) {
 }
 
 fn main() {
+    // tuple
     let values = ("Eve", 38, "P");
     sentence_builder(values);
 }
