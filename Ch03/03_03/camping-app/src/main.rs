@@ -12,4 +12,10 @@ fn main() {
         Ok(miles) => println!("Miles: {}", miles),
         Err(error) => println!("Error: {}", error),
     }
+
+    let result = calculate_distance(2, 10);
+    match result {
+        Ok(miles) => println!("Miles: {}", miles),
+        Err(error) => println!("Error: {}", error),
+    }
 }
